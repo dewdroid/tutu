@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.MainActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="0dp" >
+
+        <LinearLayout
+            android:background="@color/colorPrimary"
+            android:paddingLeft="70dp"
+            android:paddingRight="20dp"
+            android:layout_marginLeft="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.vvasilyev.tutu.base.ui.SwitchView
+                android:id="@+id/departingSelector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                >
+                <include layout="@layout/station_selected"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:text="@string/departing"
+                    android:gravity="start|center_vertical"
+                    android:textColor="@color/colorForm"
+                    style="@style/TextView"
+                    android:textSize="24sp"
+                    />
+            </com.vvasilyev.tutu.base.ui.SwitchView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorForm"
+                ></View>
+
+            <com.vvasilyev.tutu.base.ui.SwitchView
+                android:id="@+id/destinationSelector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/selectableItemBackground"
+                >
+                <include layout="@layout/station_selected"/>
+                <TextView
+                    android:id="@+id/destination"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:text="@string/destination"
+                    android:gravity="start|center_vertical"
+                    android:textColor="@color/colorForm"
+                    android:textSize="24sp"
+                    style="@style/TextView"
+                    />
+            </com.vvasilyev.tutu.base.ui.SwitchView>
+
+            <Button
+                android:id="@+id/pick_date"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="24 Октября, пн"
+                android:background="?android:attr/selectableItemBackground"
+                android:textAllCaps="false"
+                android:textStyle="normal"
+                android:gravity="start|center_vertical"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"
+                style="@style/TextView"
+                />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/display_schedule"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/display_schedule"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>

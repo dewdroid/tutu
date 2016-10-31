@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ТуТу Задание</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="app_version">Версия 1.0.0</string>
+    <string name="all_stops">Все остановки</string>
+    <string name="screen_title_schedule">Расписание</string>
+    <string name="screen_title_about">О приложении</string>
+    <string name="display_schedule">Показать расписание</string>
+    <string name="departing_and_destination_should_differ">Станции отправления и прибытия должны отличаться</string>
+    <string name="select_departing">Выберите станицию отправления</string>
+    <string name="select_destination">Выберите станцию назначения</string>
+    <string name="schedule_not_supported_yet">Текущая версия приложения не поддерживает функцию отображения расписания</string>
+    <string name="not_found">Ничего не найдено. Пожалуйста, уточните запрос</string>
+    <string name="label_station">Станция</string>
+    <string name="label_city">Город</string>
+    <string name="label_country">Страна</string>
+    <string name="label_region">Регион</string>
+    <string name="destination">Kуда</string>
+    <string name="departing">Откуда</string>
+    <string name="station_data">Информация о станции</string>
+    <string name="ok">OK</string>
+</resources>

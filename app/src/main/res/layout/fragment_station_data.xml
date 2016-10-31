@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@android:color/darker_gray"
+        android:text="@string/label_station"/>
+
+    <TextView
+        android:id="@+id/station_data_name"
+        style="@style/TextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        style="@style/TextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@android:color/darker_gray"
+        android:text="@string/label_city" />
+
+    <TextView
+        android:id="@+id/station_data_city"
+        style="@style/TextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        style="@style/TextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@android:color/darker_gray"
+        android:text="@string/label_country" />
+
+    <TextView
+        android:id="@+id/station_data_country"
+        style="@style/TextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        style="@style/TextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@android:color/darker_gray"
+        android:text="@string/label_region" />
+
+    <TextView
+        android:id="@+id/station_data_region"
+        style="@style/TextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@android:color/black" />
+</LinearLayout>
+
+
+
